@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+.hero__section{
+
+
+    background-color: rgb(57,26,80);
+}
+
+.hero__heading{
+    font-family: 'Rubik', "sans-serif";
+    font-size: 45px;
+    font-weight: 300;
+    color: #fff;
+}
+.hero__desc{
+   
+    opacity: 75%;
+}
+.tech__section{
+
+    padding: 0 100px;
+    margin-top: 150px;
+}
+.tech__section__heading{
+    font-family: "Rubik";
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+   color:#4a2fb4
+}
+.tech__section__heading::after {
+    content: "";
+    background: linear-gradient(to right, #5ed0ff 0, #4a2fb4 41%, #5ed0ff 100%);
+    background-size: 200% auto;
+    left: 50%;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 3px;
+    bottom: 0px;
+}
+.tech__section__heading::before {
+    content: "";
+    background: linear-gradient(to right, #5ed0ff 0, #4a2fb4 41%, #5ed0ff 100%);
+    background-size: 200% auto;
+    left: 48%;
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 3px;
+    bottom: -7px;
+}
+
+.tech__icons div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__hover :nth-child(2) {
+
+   
+    margin-top: 40px;
+
+}
+
+.icon__hover:hover h4{
+    margin-top: 0px;
+    transition: all 150ms ease-in;
+
+}
+
+.icon__hover:hover {
+
+  
+    background-color: #7b78f0;
+    cursor: pointer;
+    transition: all 150ms ease-in;
+}
+.icon__hover:hover :nth-child(1) {
+
+  color: #fff !important;
+}
+
+.blink__line{
+
+    width: 70px;
+    height:5px;
+    border-radius: 1rem;
+    border-width: 0;
+    background-color: #4a2fb4;
+    
+    animation: blinking 650ms infinite;
+}
+
+@keyframes blinking {
+    0%{
+
+        opacity: 100%;
+    }
+    50%{
+
+        opacity: 50%;
+    }
+     100%{
+        opacity: 0;
+    }
+}
+.services__style{
+
+    font-family: 'Rubik';
+    color: rgb(98, 97, 97);
+    font-weight: 300;
+    margin-top: 150px;
+    padding-top: 10px;
+}
+
+.image__position1{
+
+    top: 125px;
+    right:225px;
+    width:40%;
+}
+
+.image__position2{
+    top: 115px;
+   right:255px;
+   height:40%;
+   width: 25%;
+}
+
+.image__position3{
+    top: 95px;
+    right:225px;
+   height:50%;
+   width: 40%;
+}
+
+
+@media screen and (max-Width:540px) {
+    .tech__section{
+
+        padding: 0 25px;
+    }
+    .image__position1{
+
+        top: 95px;
+        right:135px;
+        width: 45%;
+    }
+    .image__position2{
+        top: 95px;
+        right:165px;
+       height:50%;
+       width: 30%;
+    }
+    .image__position3{
+        top: 95px;
+        right:145px;
+       height:50%;
+       width: 50%;
+    }
+    
+}

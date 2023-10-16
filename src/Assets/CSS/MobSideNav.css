@@ -1,0 +1,36 @@
+
+.mobnav__main__container{
+    
+    position: fixed;
+    z-index: 2500;
+    width:100vw;
+    top:0;
+    bottom: 0;
+    overflow: hidden;
+      
+   
+   
+}
+.mobnav__items{
+   
+    background-color: rgba(0, 0, 0, 0.871);
+    width: calc(100% - 100px);
+}
+
+
+.mobnav__closed{
+
+    left: -250px;
+    width: 0vw;
+    transition: all ease-in 250ms;
+}
+.mobnav__open{
+  
+left: 0px;
+transition: all ease-in 250ms;
+}
+
+aside nav ul li{
+
+    padding: 20px 0;
+}
