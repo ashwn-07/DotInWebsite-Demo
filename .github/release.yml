@@ -1,14 +1,6 @@
 
-# .github/release.yml
-
 changelog:
   categories:
     - title: 🏕 Features
-      types:
-        - feat  # Commits starting with 'feat' will be included in this section
-    - title: 🔧 Fixes
-      types:
-        - fix  # Commits starting with 'fix' will be included in this section
-    - title: 👒 Dependencies
-      types:
-        - deps
+      labels:
+        - '*'
