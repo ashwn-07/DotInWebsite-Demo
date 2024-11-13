@@ -4,11 +4,11 @@
 changelog:
   categories:
     - title: 🏕 Features
-      labels:
-        - '*'
-      exclude:
-        labels:
-          - dependencies
+      types:
+        - feat  # Commits starting with 'feat' will be included in this section
+    - title: 🔧 Fixes
+      types:
+        - fix  # Commits starting with 'fix' will be included in this section
     - title: 👒 Dependencies
-      labels:
-        - dependencies
+      types:
+        - deps
