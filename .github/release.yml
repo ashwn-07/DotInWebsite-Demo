@@ -1,6 +1,14 @@
-
 changelog:
   categories:
     - title: 🏕 Features
-      labels:
-        - '*'
+      label: feature
+    - title: 🐛 Fixes
+      label: fix
+  exclude:
+    labels:
+      - dependencies
+  template: |
+    ## What's Changed
+    {{#each changes}}
+    * {{commitMessage}} <!-- Displays only the commit message or title without PR link and author -->
+    {{/each}}
