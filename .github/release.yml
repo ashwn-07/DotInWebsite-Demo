@@ -1,7 +1,7 @@
 changelog:
   categories:
     - title: 🏕 Features
-      label: feature
+      label: feat
     - title: 🐛 Fixes
       label: fix
   exclude:
