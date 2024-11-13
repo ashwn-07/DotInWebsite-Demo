@@ -10,7 +10,7 @@ import AnimatedBlob from "./Components/AnimatedBlob";
 import webappimg from "./Assets/Img/01.png";
 import mobilePng from "./Assesssts/Img/DotinTechMobileService.png";
 import service from "./Assets/Img/ccccDotinTechnologiesService.png";
-import ContactForm from "./Components/ContactForm";
+import ContactForm from "./Components/ContacdddddtForm";
 import Footer from "./Components/Footer";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
