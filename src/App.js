@@ -8,7 +8,7 @@ import { SiExpress } from "react-icons/si";
 import { FaVuejs } from "react-icons/fa";
 import AnimatedBlob from "./Components/AnimatedBlob";
 import webappimg from "./Assets/Img/01.png";
-import mobilePng from "./Assets/Img/DotinTechMobileService.png";
+import mobilePng from "./Assesssts/Img/DotinTechMobileService.png";
 import service from "./Assets/Img/DotinTechnologiesService.png";
 import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
